@@ -12,7 +12,7 @@ let userEmail;
 const id = Symbol('123')
 const anotherId = Symbol('123')
 
-console.log(id === anotherId);  // false
+// console.log(id === anotherId);  // false
 
 const bigNumber = 565449854594654648n  // putting n at last maakes it bigInt
 
@@ -27,7 +27,7 @@ let myObj = {
 }
 
 const myFunction = function(){
-    console.log("Hello World");
+    // console.log("Hello World");
 }
 
 
@@ -48,3 +48,33 @@ const myFunction = function(){
 // | **Array**    | `["a", "b", "c"]`                  | `"object"` ❗    |
 // | **Object**   | `{ name: "Hitesh", age: 22 }`      | `"object"`      |
 // | **Function** | `function() { console.log("hi") }` | `"function"` ✅  |
+
+
+
+
+
+
+
+//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+// Stack(Primitive) // copy milta h , Heap(Non-Primitive) // reference milta h
+
+let myYoutubename = "hiteshchoudharydotcom"
+let anothername = myYoutubename
+anothername = "chaiaurcode"
+
+console.log(myYoutubename);
+console.log(anothername);
+
+let userOne = {
+    email: "user@google.com",
+    upi: "user@ybl"
+}
+
+let userTwo = userOne
+
+userTwo.email = "hitesh@google.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
