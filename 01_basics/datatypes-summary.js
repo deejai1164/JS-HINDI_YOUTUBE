@@ -58,7 +58,8 @@ const myFunction = function(){
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 
-// Stack(Primitive) // copy milta h , Heap(Non-Primitive) // reference milta h
+// Stack(Primitive) // copy milta h 
+// Heap(Non-Primitive) // reference milta h
 
 let myYoutubename = "hiteshchoudharydotcom"
 let anothername = myYoutubename
