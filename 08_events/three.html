@@ -19,7 +19,7 @@
     }
     let intervalId;
     document.getElementById("start").addEventListener("click", function(){
-        if(!intervalId){
+        if(!intervalId){          // "Only run the code inside if intervalId is not already set."
             intervalId = setInterval(sayDate, 1000, "hi")
         }
     });
